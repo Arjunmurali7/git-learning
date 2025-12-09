@@ -1,0 +1,48 @@
+name: OPCUA-Server
+manufacturer: Prosys
+model: Simlulator
+labels:
+  - OPCUA
+  - TEST
+description: Simulation OPCUA Server
+deviceResources:
+  - name: Constant
+    description: generated constant number
+    properties:
+      valueType: Float64
+      readWrite: RW
+    attributes:
+      nodeId: ns=3;i=1001
+  - name: Counter
+    description: generated counter number
+    properties:
+      valueType: Int32
+      readWrite: R
+    attributes:
+      nodeId: ns=3;i=1002
+  - name: Random
+    description: generated random number
+    properties:
+      valueType: Float64
+      readWrite: R
+    attributes:
+      nodeId: ns=3;i=1003
+deviceCommands:
+  - name: ConstantNum
+    isHidden: false
+    readWrite: RW
+    resourceOperations:
+      - deviceResource: Constant
+        defaultValue: 0.0
+  - name: CounterNum
+    isHidden: false
+    readWrite: R
+    resourceOperations:
+      - deviceResource: Counter
+        defaultValue: 0
+  - name: RandomNum
+    isHidden: false
+    readWrite: R
+    resourceOperations:
+      - deviceResource: Random
+        defaultValue: 0.0

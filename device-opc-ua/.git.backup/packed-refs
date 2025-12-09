@@ -1,0 +1,33 @@
+# pack-refs with: peeled fully-peeled sorted 
+b457f0d6ebce1885a34cfd22c232c513196bb717 refs/remotes/origin/dependabot/go_modules/github.com/edgexfoundry/device-sdk-go/v4-4.1.0-dev.45
+c4b646650e74479821850c8c34d717640a2d3f09 refs/remotes/origin/dependabot/go_modules/golang.org/x/crypto-0.45.0
+5eb1ba9b2b70cd1f97ef74ddd5c3f8b1db13e881 refs/remotes/origin/main
+826a9d9e9ef1e6fa21ea23605df0d181f80b74ba refs/remotes/origin/odessa
+37124bf565e164e0fdd008df378e05e0dd5eccab refs/remotes/origin/semver
+2ff9116cfe1264b2a844e1dd80f530be75dd9bb1 refs/remotes/origin/snyk-fix-5dde11b6a4cb1cea7ad03aa6ddfbb5dd
+f3a3837a121aeae6932be14e7a082e3f37dc6338 refs/tags/v4.0
+^826a9d9e9ef1e6fa21ea23605df0d181f80b74ba
+c242071885a7c06100bf2852c3d0507443b02e73 refs/tags/v4.0.0
+^826a9d9e9ef1e6fa21ea23605df0d181f80b74ba
+2db2328a3fe2474d57ece2a047cda61fe8d9c852 refs/tags/v4.1.0-dev.1
+^8fe993c815571e2722f031c8f5cb1208b33404e3
+4bcec19e2da4db4f401a009cbf51d8d0740170ec refs/tags/v4.1.0-dev.10
+^2b0bdc7118cb613de3609f7eab2add5ffb2ec92b
+d0867c08f20f3a5226328769e4e02d62275048e8 refs/tags/v4.1.0-dev.11
+^5eb1ba9b2b70cd1f97ef74ddd5c3f8b1db13e881
+fd0bcfce7a50f059841d9a5ebcf28b4289941832 refs/tags/v4.1.0-dev.2
+^3928fc2afe33140d01c8e3765cf048beb99a8a95
+e73dfd0f9576dfd4410b7e7cdd669fd5f1f52234 refs/tags/v4.1.0-dev.3
+^83aed419838c95e88690884805deb3001cd714b8
+16ecd8c69a78eafb5a91d3c0be12dd04853187e1 refs/tags/v4.1.0-dev.4
+^fd5faddb6bef00999662222d4fecab10e289b007
+715ca9e5d27d81838d12639002f75a83d89a8860 refs/tags/v4.1.0-dev.5
+^1c89c2042a409d96a58921c7f63e2b8d6d401c35
+3bff57823844b962d91a8e4993096722dad2103c refs/tags/v4.1.0-dev.6
+^dacda6636b0f16d8de931466d6866e30110653c3
+d45672c8cb66b7f92c80d9b69e3b7605d154f09b refs/tags/v4.1.0-dev.7
+^31d78b94d4bc184051f064f52dd5d952b2f95b80
+b2d7036bc73dd29d8e1bae818afc3ba3e58ad832 refs/tags/v4.1.0-dev.8
+^d02096d86674522962d20ebf540a7836b311c48f
+fb5b216acf5f7b22f59394fe83c75ae4caeb3b5e refs/tags/v4.1.0-dev.9
+^f40aaf6f1cc482f5964c4011a1cb3ced8a26cc74

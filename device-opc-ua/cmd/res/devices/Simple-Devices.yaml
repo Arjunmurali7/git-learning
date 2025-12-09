@@ -1,0 +1,10 @@
+deviceList:
+  - name: SimulationServer
+    profileName: OPCUA-Server
+    description: OPCUA device
+    labels:
+      - OPCUA
+      - TEST
+    protocols:
+      opcua:
+        Endpoint: "opc.tcp://172.25.48.1:53530/OPCUA/SimulationServer"

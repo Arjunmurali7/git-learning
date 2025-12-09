@@ -1,0 +1,24 @@
+Writable:
+  LogLevel: INFO
+
+Service:
+  Host: localhost
+  Port: 59997
+  StartupMsg: 'opcua device service started'
+
+Device:
+  DevicesDir: ./res/devices
+  ProfilesDir: ./res/profiles
+
+OPCUAServer:
+  DeviceName: MySecureOpcuaDevice
+  Endpoint: "opc.tcp://172.25.48.1:53530/OPCUA/SimulationServer"
+  Policy: Basic256Sha256
+  Mode: SignAndEncrypt
+  AuthMode: Certificate
+  CertFile: /keys/client-cert.der
+  KeyFile: /keys/client-key.pem
+
+  Writable:
+    Resources: 'Counter,Random'
+
